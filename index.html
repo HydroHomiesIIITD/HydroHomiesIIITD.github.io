@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bhoojal Mapping</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel='stylesheet' href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!---<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>--->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Noto+Sans&family=Open+Sans:wght@300&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+
+        <script rel='js' src="./index3.js"></script>
+    </head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Noto+Sans&family=Rajdhani:wght@500&display=swap');
+      </style>
+    <body>
+    <section class="header">
+        <div class="logo">
+            <h1 style="font-family: 'Dosis', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Rajdhani', sans-serif; color: white; font-size: 4rem;">BHOOJAL MAPPING</h1>
+        </div>
+        <!--<div class="buttons">
+
+            <button id="toggle-heatmap" >Toggle Heatmap</button>
+            <button id="change-gradient">Change gradient</button>
+            <button id="change-radius">Change radius</button>
+            <button id="change-opacity">Change opacity</button>
+
+        </div>-->
+    </section>
+
+    <section class="mapsec" >
+
+          <div id="map" style="position: relative  !important; z-index: 5 !important;">
+            <div>
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY&region=IN&libraries=visualization&callback=initMap&v=weekly"
+                    async></script>
+
+            </div>
+            </section>
+    </body>
+</html>

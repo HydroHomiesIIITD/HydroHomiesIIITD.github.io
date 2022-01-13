@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    /* font-family: 'Montserrat', sans-serif; */
+
+
+}
+
+.header{
+    position: relative;
+    /*margin-bottom: 53px;*/
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:2vh;
+    padding:0px;
+
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("./images/underwater-6.jpg");
+}
+
+.buttons {
+    /* align-self: flex-end; */
+    /* position: relative; */
+
+
+    /* left: 25%; */
+    z-index: 5;
+
+    text-align: center;
+    line-height: 30px;
+
+    /* align-self: flex-end; */
+
+}
+.buttons button{
+    margin: 10px 20px;
+    border-radius: 40px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #999;
+    height: 65px;
+    width: 225px;
+    font-size: 1.4rem;
+
+}
+.mapsec{
+    top: 100px;
+    height:70%;
+}
+
+#map {
+
+
+    width: 100%;
+
+
+    padding:300px;
+    align-items: center;
+
+}
+#map {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
