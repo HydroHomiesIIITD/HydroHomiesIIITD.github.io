@@ -29,7 +29,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url("https://github.com/OutOfTheBoxers/OutOfTheBoxers.github.io/blob/main/images/underwater-6.jpg");
+    background: #022F8E;
+    background: url("https://github.com/HydroHomiesIIITD/HydroHomiesIIITD.github.io/blob/main/images/underwater-6.jpg");
 }
 
 .buttons {
